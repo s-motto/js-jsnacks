@@ -1,9 +1,9 @@
 let randomNumber = Math.floor(Math.random() * 10 + 1);
-let usersNumber = prompt('Scegli un numero');
-let actualNumber = Number(usersNumber);
+let usersNumber = Number(prompt('Scegli un numero'));
+
 console.log(randomNumber);
 
-if (randomNumber === actualNumber) {
+if (randomNumber === usersNumber) {
     console.log('Congratulazioni, hai vinto!');
 }
 else {
